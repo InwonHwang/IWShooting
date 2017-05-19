@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Objects">
+      <UniqueIdentifier>{132e953a-e659-4234-8131-13d7e6460aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Objects\SubObjectOfPlane">
+      <UniqueIdentifier>{994c5d7d-b9e2-487e-ac74-d20d659f54f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Objects\SubObjectOfPlane\Gun">
+      <UniqueIdentifier>{93a8f9c2-4360-4715-9510-ae467d9fbbb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Objects\SubObjectOfPlane\Fire">
+      <UniqueIdentifier>{1a53493c-5e39-4574-930f-863d39d66788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Objects\Bullet">
+      <UniqueIdentifier>{11d5f225-2a5c-4f9e-8cca-cc107df59657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Objects\Enemy">
+      <UniqueIdentifier>{083f4ecb-2e89-43d0-a28d-bb676a3bf569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Objects\Background">
+      <UniqueIdentifier>{7be51ea9-159c-4821-910b-80a27bcc7f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Objects\Enemy\UFO">
+      <UniqueIdentifier>{8587bfea-ef4b-4588-8e8f-378d446e9674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Objects\Enemy\UFO2">
+      <UniqueIdentifier>{39fbc92f-e68f-4f90-af99-d545fe4dbfa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Objects\Enemy\Boss">
+      <UniqueIdentifier>{ff4589c7-73ff-4227-bba2-6780baabb004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Objects\Enemy\SubObjectOfEnemy">
+      <UniqueIdentifier>{47a55603-8801-4766-aa97-10b221e43673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Objects\ParentObjects">
+      <UniqueIdentifier>{8b109a53-bbf7-44e1-a1b5-4c27cb776178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기타">
+      <UniqueIdentifier>{6dc8edde-bfc0-446b-baca-24c57fe27ff4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gun.h">
+      <Filter>소스 파일\Objects\SubObjectOfPlane\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\Objects\SubObjectOfPlane\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="EBullet_Basic.h">
+      <Filter>소스 파일\Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>소스 파일\Objects\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>소스 파일\Objects\ParentObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\Objects\ParentObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="UFO.h">
+      <Filter>소스 파일\Objects\Enemy\UFO</Filter>
+    </ClInclude>
+    <ClInclude Include="UFO2.h">
+      <Filter>소스 파일\Objects\Enemy\UFO2</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>소스 파일\Objects\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="EObj.h">
+      <Filter>소스 파일\Objects\Enemy\SubObjectOfEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EBossObj.h">
+      <Filter>소스 파일\Objects\Enemy\SubObjectOfEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>소스 파일\기타</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>소스 파일\기타</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityFactory.h">
+      <Filter>소스 파일\기타</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일\기타</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\기타</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>소스 파일\기타</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>소스 파일\Objects\SubObjectOfPlane\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\Objects\SubObjectOfPlane\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="EBullet_Basic.cpp">
+      <Filter>소스 파일\Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>소스 파일\Objects\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>소스 파일\Objects\ParentObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Objects\ParentObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UFO.cpp">
+      <Filter>소스 파일\Objects\Enemy\UFO</Filter>
+    </ClCompile>
+    <ClCompile Include="UFO2.cpp">
+      <Filter>소스 파일\Objects\Enemy\UFO2</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>소스 파일\Objects\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="EObj.cpp">
+      <Filter>소스 파일\Objects\Enemy\SubObjectOfEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EBossObj.cpp">
+      <Filter>소스 파일\Objects\Enemy\SubObjectOfEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityFactory.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
